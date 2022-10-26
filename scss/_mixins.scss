@@ -40,3 +40,38 @@
 @mixin darkenBtn {
   box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.058);
 }
+
+// display
+@mixin displaySm($value) {
+  .ft-d-#{$value},
+  .ft-d-sm-#{$value} {
+    display: $value;
+  };
+}
+
+@mixin displayMd($value) {
+  .ft-d-#{$value},
+  .ft-d-sm-#{$value},
+  .ft-d-md-#{$value} {
+    display: $value;
+  };
+}
+
+@mixin displayLg($value) {
+  .ft-d-#{$value},
+  .ft-d-sm-#{$value},
+  .ft-d-md-#{$value},
+  .ft-d-lg-#{$value} {
+    display: $value;
+  };
+}
+
+@mixin displayXl($value) {
+  .ft-d-#{$value},
+  .ft-d-sm-#{$value},
+  .ft-d-md-#{$value},
+  .ft-d-lg-#{$value},
+  .ft-d-xl-#{$value} {
+    display: $value;
+  };
+}

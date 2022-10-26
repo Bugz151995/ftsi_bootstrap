@@ -5,15 +5,15 @@
 
   &.ft-btn-primary {
     @include buttonTheme("primary");
-    color: white;
+    color: theme("white");
     &:hover {
       @include lightenBtn;
     };
   }
 
-  &.ft-btn-dangers {
+  &.ft-btn-danger {
     @include buttonTheme("danger");
-    color: white;
+    color: theme("white");
     &:hover {
       @include lightenBtn;
     };
@@ -21,14 +21,7 @@
 
   &.ft-btn-success {
     @include buttonTheme("success");
-    color: white;
-    &:hover {
-      @include lightenBtn;
-    };
-  }
-  
-  &.ft-btn-info {
-    @include buttonTheme("info");
+    color: theme("white");
     &:hover {
       @include lightenBtn;
     };
@@ -37,7 +30,15 @@
   &.ft-btn-warning {
     @include buttonTheme("warning");
     &:hover {
-      @include darkenBtn;
+      @include lightenBtn;
+    };
+    color: theme("white");
+  }
+  
+  &.ft-btn-info {
+    @include buttonTheme("info");
+    &:hover {
+      @include lightenBtn;
     };
   }
 

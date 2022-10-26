@@ -1,15 +1,16 @@
-$primary: blue;
-$secondary: gray;
-$success: green;
-$danger: red;
-$warning: yellow;
-$info: lightblue;
-$light: #d1d1d1;
-$dark: #000;
+$body: #f0f0f0;
+$primary: #266DD3;
+$secondary: #9c9c9c;
+$success: #3EC300;
+$danger: #F8333C;
+$warning: #ECA400;
+$info: #7dd6fd;
+$light: #F2F4FF;
+$dark: #222222;
+$white: #e8e8e8;
 $transparent: transparent;
 
 //font-sizes
-$font-size-root: null;
 $font-size-base: 1rem;
 $font-size-sm: $font-size-base * .875;
 $font-size-lg: $font-size-base * 1.25;
@@ -26,13 +27,29 @@ $line-height-base: 1.5;
 $line-height-sm: 1.25;
 $line-height-lg: 2;
 
-//header fontsizes
+//fontsizes
 $h1-font-size: $font-size-base * 2.5;
 $h2-font-size: $font-size-base * 2;
 $h3-font-size: $font-size-base * 1.75;
 $h4-font-size: $font-size-base * 1.5;
 $h5-font-size: $font-size-base * 1.25;
 $h6-font-size: $font-size-base;
+
+//margins
+$margin-base: 0.8rem;
+$margin-1: $margin-base * 1.25;
+$margin-2: $margin-base * 1.5;
+$margin-3: $margin-base * 1.75;
+$margin-4: $margin-base * 2;
+$margin-5: $margin-base * 2.5;
+
+//padding
+$padding-base: 0.8rem;
+$padding-1: $padding-base * 1.25;
+$padding-2: $padding-base * 1.5;
+$padding-3: $padding-base * 1.75;
+$padding-4: $padding-base * 2;
+$padding-5: $padding-base * 2.5;
 
 // breakpoints for responsiveness
 $sm: 576px;

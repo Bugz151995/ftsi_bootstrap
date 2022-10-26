@@ -1,0 +1,60 @@
+.ft-flex-row { flex-direction: row; }
+.ft-flex-row-reverse { flex-direction: row-reverse; }
+.ft-flex-column { flex-direction: column; }
+.ft-flex-column-reverse { flex-direction: column-reverse; }
+
+@include sm {
+  .ft-flex-row,
+  .ft-flex-sm-row { 
+    flex-direction: row; 
+  };
+  .ft-flex-row-reverse, 
+  .ft-flex-row-sm-reverse { 
+    flex-direction: row-reverse;
+  };
+};
+
+@include md {
+  .ft-flex-row,
+  .ft-flex-sm-row,
+  .ft-flex-md-row { 
+    flex-direction: row; 
+  };
+  .ft-flex-row-reverse, 
+  .ft-flex-row-sm-reverse,
+  .ft-flex-row-md-reverse { 
+    flex-direction: row-reverse;
+  };
+};
+
+@include lg {
+  .ft-flex-row,
+  .ft-flex-sm-row,
+  .ft-flex-md-row,
+  .ft-flex-lg-row { 
+    flex-direction: row; 
+  };
+  .ft-flex-row-reverse, 
+  .ft-flex-row-sm-reverse,
+  .ft-flex-row-md-reverse,
+  .ft-flex-row-lg-reverse { 
+    flex-direction: row-reverse;
+  };
+};
+
+@include xl {
+  .ft-flex-row,
+  .ft-flex-sm-row,
+  .ft-flex-md-row,
+  .ft-flex-lg-row,
+  .ft-flex-xl-row { 
+    flex-direction: row; 
+  };
+  .ft-flex-row-reverse, 
+  .ft-flex-row-sm-reverse,
+  .ft-flex-row-md-reverse,
+  .ft-flex-row-lg-reverse,
+  .ft-flex-row-xl-reverse { 
+    flex-direction: row-reverse;
+  };
+};

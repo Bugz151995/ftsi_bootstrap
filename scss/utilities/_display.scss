@@ -1,0 +1,62 @@
+.ft-d-none { display: none; }
+.ft-d-inline { display: inline; }
+.ft-d-inline-block { display: inline-block; }
+.ft-d-block { display: block; }
+.ft-d-grid { display: grid; }
+.ft-d-table { display: table; }
+.ft-d-table-cell { display: table-cell; }
+.ft-d-table-row { display: table-row; }
+.ft-d-flex { display: flex; }
+.ft-d-inline-flex { display: inline-flex; }
+
+@include sm {
+  @include displaySm("none");
+  @include displaySm("inline");
+  @include displaySm("inline-block");
+  @include displaySm("block");
+  @include displaySm("grid");
+  @include displaySm("table");
+  @include displaySm("table-cell");
+  @include displaySm("table-row");
+  @include displaySm("flex");
+  @include displaySm("inline-flex");
+};
+
+@include md {
+  @include displayMd("none");
+  @include displayMd("inline");
+  @include displayMd("inline-block");
+  @include displayMd("block");
+  @include displayMd("grid");
+  @include displayMd("table");
+  @include displayMd("table-cell");
+  @include displayMd("table-row");
+  @include displayMd("flex");
+  @include displayMd("inline-flex");
+};
+
+@include lg {
+  @include displayLg("none");
+  @include displayLg("inline");
+  @include displayLg("inline-block");
+  @include displayLg("block");
+  @include displayLg("grid");
+  @include displayLg("table");
+  @include displayLg("table-cell");
+  @include displayLg("table-row");
+  @include displayLg("flex");
+  @include displayLg("inline-flex");
+};
+
+@include xl {
+  @include displayXl("none");
+  @include displayXl("inline");
+  @include displayXl("inline-block");
+  @include displayXl("block");
+  @include displayXl("grid");
+  @include displayXl("table");
+  @include displayXl("table-cell");
+  @include displayXl("table-row");
+  @include displayXl("flex");
+  @include displayXl("inline-flex");
+};
