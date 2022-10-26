@@ -1,0 +1,41 @@
+$primary: blue;
+$secondary: gray;
+$success: green;
+$danger: red;
+$warning: yellow;
+$info: lightblue;
+$light: #d1d1d1;
+$dark: #000;
+$transparent: transparent;
+
+//font-sizes
+$font-size-root: null;
+$font-size-base: 1rem;
+$font-size-sm: $font-size-base * .875;
+$font-size-lg: $font-size-base * 1.25;
+
+//font-weights
+$font-weight-normal: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$font-weight-base: $font-weight-normal;
+
+//line-heights
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 2;
+
+//header fontsizes
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+// breakpoints for responsiveness
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;

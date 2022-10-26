@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $montserrat;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $merriweather;
+}
+
+button {
+  border: 0;
+  font-weight: fontWeight("medium");
+  font-size: 0.9rem;
+}

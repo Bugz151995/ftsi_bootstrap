@@ -1,0 +1,42 @@
+//breakpoints for responsiveness
+//small size devices i.e. mobile
+@mixin sm {
+  @media (min-width: $sm) {
+    @content;
+  }
+};
+
+//medium size devices i.e. tablets
+@mixin md {
+  @media (min-width: $md) {
+    @content;
+  }
+};
+
+//large size devices i.e. desktop
+@mixin lg {
+  @media (min-width: $lg) {
+    @content
+  }
+};
+
+//extra large size devices i.e large desktops
+@mixin xl {
+  @media (min-width: $xl) {
+    @content
+  }
+};
+
+//button mixin
+@mixin buttonTheme($color) {
+  background: theme($color);
+  border-color: theme($color);
+}
+
+@mixin lightenBtn {
+  box-shadow: inset 0 0 100px 100px rgba(250, 250, 250, 0.125);
+}
+
+@mixin darkenBtn {
+  box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.058);
+}

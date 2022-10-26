@@ -1,0 +1,44 @@
+.ft-container,
+.ft-container-sm,
+.ft-container-md,
+.ft-container-lg,
+.ft-container-xl,
+.ft-container-fluid {
+  max-width: 100%;
+  padding: 0 0.8rem;
+  margin: auto;
+}
+
+@include sm {
+  .ft-container, 
+  .ft-container-sm { 
+    max-width: 540px; 
+  }
+};
+
+@include md {
+  .ft-container, 
+  .ft-container-sm,
+  .ft-container-md { 
+    max-width: 720px; 
+  }
+};
+
+@include lg {
+  .ft-container,
+  .ft-container-sm,
+  .ft-container-md,
+  .ft-container-lg { 
+    max-width: 960px; 
+  }
+};
+
+@include xl {
+  .ft-container,
+  .ft-container-sm,
+  .ft-container-md,
+  .ft-container-lg,
+  .ft-container-xl { 
+    max-width: 1140px; 
+  }
+};

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", serif;
+}
+
+button {
+  border: 0;
+  font-weight: fontWeight("medium");
+  font-size: 0.9rem;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+.ft-container,
+.ft-container-sm,
+.ft-container-md,
+.ft-container-lg,
+.ft-container-xl,
+.ft-container-fluid {
+  max-width: 100%;
+  padding: 0 0.8rem;
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+  .ft-container,
+.ft-container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .ft-container,
+.ft-container-sm,
+.ft-container-md {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .ft-container,
+.ft-container-sm,
+.ft-container-md,
+.ft-container-lg {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .ft-container,
+.ft-container-sm,
+.ft-container-md,
+.ft-container-lg,
+.ft-container-xl {
+    max-width: 1140px;
+  }
+}
+.ft-btn {
+  padding: 0.75rem 1rem;
+  border-radius: 0.3rem;
+}
+.ft-btn.ft-btn-primary {
+  background: blue;
+  border-color: blue;
+  color: white;
+}
+.ft-btn.ft-btn-primary:hover {
+  box-shadow: inset 0 0 100px 100px rgba(250, 250, 250, 0.125);
+}
+.ft-btn.ft-btn-dangers {
+  background: red;
+  border-color: red;
+  color: white;
+}
+.ft-btn.ft-btn-dangers:hover {
+  box-shadow: inset 0 0 100px 100px rgba(250, 250, 250, 0.125);
+}
+.ft-btn.ft-btn-success {
+  background: green;
+  border-color: green;
+  color: white;
+}
+.ft-btn.ft-btn-success:hover {
+  box-shadow: inset 0 0 100px 100px rgba(250, 250, 250, 0.125);
+}
+.ft-btn.ft-btn-info {
+  background: lightblue;
+  border-color: lightblue;
+}
+.ft-btn.ft-btn-info:hover {
+  box-shadow: inset 0 0 100px 100px rgba(250, 250, 250, 0.125);
+}
+.ft-btn.ft-btn-warning {
+  background: yellow;
+  border-color: yellow;
+}
+.ft-btn.ft-btn-warning:hover {
+  box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.058);
+}
+.ft-btn.ft-btn-link {
+  background: transparent;
+  border-color: transparent;
+  text-decoration: underline;
+}
+.ft-btn.ft-btn-link:hover {
+  box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.058);
+}
+
+.ft-fs-1 {
+  font-size: 2.5rem;
+}
+
+.ft-fs-2 {
+  font-size: 2rem;
+}
+
+.ft-fs-3 {
+  font-size: 1.75rem;
+}
+
+.ft-fs-4 {
+  font-size: 1.5rem;
+}
+
+.ft-fs-5 {
+  font-size: 1.25rem;
+}
+
+.ft-fs-6 {
+  font-size: 1rem;
+}/*# sourceMappingURL=main.css.map */

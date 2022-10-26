@@ -1,0 +1,11 @@
+@function theme($color) {
+  @return map-get($theme-colors, $color)
+};
+
+@function fontWeight($weight) {
+  @return map-get($font-weights, $weight)
+};
+
+@function fontSize($font-size) {
+  @return map-get($font-sizes, $font-size)
+};
